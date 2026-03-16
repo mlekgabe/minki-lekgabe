@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MONICAH</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="monicah.css"> 
+</head>
+    
+<body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                
+                <div class="nav-links"id="navLinks">
+                    
+                    <i class="fa fa-times" onclick="hideMenu()"></i><!-- Close icon -->
+                    
+                    <ul>
+                        <li><a href="">EDUCATION</a></li>
+                        <li><a href="">PROFESSIONAL EXPERIENCE</a></li>
+                        <li><a href="">ABOUT ME</a></li>
+                        <li><a href="">MEDIA</a></li>
+                        <li><a href="contact.html">CONTACT ME</a></li>
+                    </ul>
+                </div>
+                
+                    <i class="fa fa-bars" onclick="showMenu()"></i><!-- Menu icon -->
+            </nav>
+            
+            <div class="intro">
+                <h1>Minki Monicah Lekgabe</h1>
+                <p>Educational professional with a strong interest in research on inclusive and sustainable transformation in education. <br>My work focuses on collaborative curriculum design and educational research aimed at improving equitable and meaningful learning experiences.</p>
+            
+                <a href="#learn" class="hero-btn">Visit to learn more</a>
+            </div>
+            
+        </section>
+    
+<!------------------------------ Learn More ----------------------------------->
+    
+    <section id="learn"class="learn-more">
+        <h1>Who is Monicah</h1>
+        <p>Minki Moniccah Lekgabe is an educational professional and curriculum developer at the Department of Curriculum Development & Evaluation, Ministry of Child Welfare and Basic Education in Botswana. Her work is deeply rooted in collaborative curriculum design, educational research, and teacher capacity development, with a strong commitment to inclusive and sustainable educational transformation.</p>
+        
+        <div class="row">
+            
+            <div class="learn-col">
+                <img src="images/researching.jpg">
+                <h3>Educational Research and Development</h3>
+                <p>My professional interests encompass collaborative curriculum design, educational research, and the development of teacher capacity, all underscored by a strong dedication to enhancing teaching and learning outcomes. I am particularly interested in research that focuses on inclusive and sustainable educational transformation. I am currently a curriculum developer based at the Department of Curriculum Development & Evaluation, Ministry of Child Welfare and Basic Education in Botswana</p>
+            </div>
+            
+            <div class="learn-col">
+                <img src="images/curriculum.jpg">
+                <h3>Curriculum Development</h3>
+                <p>I have played a pivotal role in reconfiguring the General Education Curriculum and Assessment Framework (GECAF) to strengthen its STEAM orientation, serving as Secretary to the GECAF Review Committee. Moniccah also contributed to the development of the Botswana Languages Policy in Education, advocating for the integration of indigenous languages to foster equitable learning environments.</p>
+            </div>
+            
+            <div class="learn-col">
+                <img src="images/languages.jpg">
+                <h3>Language Proficiency</h3>
+                <p>My academic background includes a Master’s degree in Educational Research, a Post Graduate Diploma in Education, a BA in Humanities, and an Honors Degree in Teaching French as a Foreign or Second Language. She has also completed specialized training in STEM, innovation, and entrepreneurship, alongside advanced French language proficiency.</p>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    
+<!------------------------------ Footer --------------------------------------->  
+    
+    <section class="footer">
+        <h4>CONTACT ME</h4>
+        <p>I have obtained several short course certificates, the most recent being the: Regional Training Program for Educators in Selected African Countries <br>focusing on STEM, Innovation, Entrepreneurship, and IP Education (June 2025) as well as a C1 Certificate in French language proficiency.</p>
+        
+        <div class="icons">
+            <a href="https://www.facebook.com/minkimonicah.lekgabe.9" target="_blank"><i class="fa fa-facebook"></i></a>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    
+<!------------------------ JavaScript for Toggle Menu------------------------>
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<!------------------------ JavaScript for Toggle Menu END ---------------------->    
+
+</body>
+</html>
+<!--
+
+-->
