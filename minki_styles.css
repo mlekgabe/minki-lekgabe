@@ -124,6 +124,7 @@ nav .fa{
     .row{
         flex-direction: column;
     }  
+
 }
 
 /*--------------------------- Monicah Brief ------------------------*/
@@ -134,6 +135,7 @@ nav .fa{
     text-align: center;
     padding-top: 100px;
 }
+
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -145,19 +147,12 @@ p{
     line-height: 22px;
     padding:10px;
 }
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-}
+
 .brief-col{
-    flex-basis: 35%;
-    background:
+    flex-basis: 30%;
     border-radius: 10px;
-    margin: 0 15px 5% 15px;
-    padding: 20px 12px;
     box-sizing: border-box;
-    transition: 01s;
+    transition: 0.1s;
 }
 .brief-col img{
     width: 100%;
@@ -324,11 +319,11 @@ p{
 
 .contact-right input[type=text],
 .contact-right textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin: 6px 0 16px 0;
-  resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin: 6px 0 16px 0;
+    resize: vertical;
     box-sizing: border-box;
 }
 
